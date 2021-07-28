@@ -1,0 +1,62 @@
+.App{
+
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+}
+.leftCont, .rightCont{
+  flex: 1;
+  height: 95vh;
+  border: 2px solid black;
+  margin: 10px;
+}
+.leftFirst, .leftSecond{
+  height: 44vh;
+  margin: 20px auto;
+  width: 60%;
+  border: 2px solid black;
+  overflow: scroll;
+}
+
+
+/* .droptarget {
+  height: inherit;
+  width: 100%;
+  display: block;
+} */
+.App > .rightCont > div{
+  height: 78vh;
+  margin: 40px auto;
+  width: 60%;
+  border: 2px solid black;
+  overflow: scroll;
+
+}
+.ContentData{
+  height: 10vh;
+  margin: 10px;
+  cursor:move;
+}
+
+.rowDataCol{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rowCell{
+    height: 10vh;
+    width: inherit;
+    margin: 2px 7px;
+}
+.closeItem{
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.ddcontainer{
+  display: block !important;
+  position: inherit !important;
+}
+.highlighted .my_target {background-color: 'red'}
